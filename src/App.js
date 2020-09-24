@@ -170,7 +170,7 @@ function App() {
       </header>
       {mapTypes ? <main style={{ display: "flex", flexDirection: "row" }}>
         <div style={{ width: "80%", position: "relative", alignSelf: "flex-start" }}>
-          <img src={`${map}.jpg`} style={{ width: "100%" }} alt="map image" />
+          <img src={`${map}.jpg`} style={{ width: "100%" }} alt={map + " map"} />
           <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{isolation:"isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0}} viewBox="0 0 400 225" width="100%">
             <defs>
               <clipPath id="_clipPath_ZPZFAUOW6cfyjH1olzk1mUrLvko6XLRq">
