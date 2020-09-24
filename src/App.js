@@ -273,7 +273,7 @@ function App() {
           </Tabs>
           {mapTypes ? <div style={{ width: "100%", position: "relative" }}>
             <img src={`${map}.jpg`} style={{ width: "100%" }} alt={map + " map"} />
-            {map === "skeld" ? <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0 }} viewBox="0 0 400 225" width="100%">
+            {map === "skeld" ? <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0, opacity: 0 }} viewBox="0 0 400 225" width="100%">
               <defs>
                 <clipPath id="_clipPath_ZPZFAUOW6cfyjH1olzk1mUrLvko6XLRq">
                   <rect width="400" height="225" />
@@ -297,7 +297,7 @@ function App() {
                   <path onClick={() => setList([...list, "Communications"])} d=" M 232.189 184.018 L 232.04 207.475 L 240.619 215.644 L 266.031 215.176 L 274.395 207.485 L 274.168 184.017 L 232.189 184.018 Z " fillRule="evenodd" fill="transparent" stroke="rgb(23,55,236)" />
                 </g>
               </g>
-            </svg> : (map === "polus" ? <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0 }} viewBox="0 0 400 224.89" width="100%">
+            </svg> : (map === "polus" ? <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0, opacity: 0 }} viewBox="0 0 400 224.89" width="100%">
               <defs>
                 <clipPath id="_clipPath_1REak42DzZxd2ypKjS0hpszuv1YvrkCk"><rect width="400" height="224.89" /></clipPath>
               </defs>
@@ -324,7 +324,7 @@ function App() {
                   <path onClick={() => setList([...list, "Dropship"])} d=" M 163.105 13.045 C 162.409 13.272 152.612 17.117 151.8 17.398 Q 151.43 17.525 151.406 46.392 L 152.531 47.729 L 152.859 81.844 L 186.676 82.115 L 186.727 47.981 L 188.076 46.282 Q 188.015 17.781 187.795 17.615 C 187.641 17.497 176.188 13.537 176.188 12.875 C 176.188 12.5 164.213 12.684 163.105 13.045 Z " fillRule="evenodd" fill="transparent" stroke="rgb(35,60,201)" />
                 </g>
               </g>
-            </svg> : <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0 }} viewBox="0 0 400 224.89" width="100%">
+            </svg> : <svg ref={ref} xmlns="http://www.w3.org/2000/svg" style={{ isolation: "isolate", position: "absolute", left: 0, top: 0, bottom: 0, right: 0, opacity: 0 }} viewBox="0 0 400 224.89" width="100%">
               <defs>
                 <clipPath id="_clipPath_8IoIiwFCNLd1RwuQoFajOTEAs1yG7bdu">
                   <rect width="400" height="224.89" />
