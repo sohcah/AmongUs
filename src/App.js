@@ -391,7 +391,7 @@ function App() {
       </List>
       </main>
       <footer style={{padding:8}}>
-        <div style={{color:"white"}}>Site created by <a href="https://sohcah.dev/" style={{color:"lightblue"}}>Sam Hindess</a> - {randomMessages[rng%randomMessages.length]}</div>
+        <div style={{color:"white",fontSize:"1.8vh"}}>Site created by <a href="https://sohcah.dev/" style={{color:"lightblue"}}>Sam Hindess</a> - {randomMessages[rng%randomMessages.length]}</div>
       </footer>
     </div>
   );
