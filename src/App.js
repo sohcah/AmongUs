@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import {
-  Tabs,
-  Tab,
-  ListItem,
-  ListItemText,
-  List,
-  FAB 
-} from '@material-ui/core';
-import ReactRough, { Circle, Line, Path } from 'react-rough';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import List from '@material-ui/core/List';
+import FAB from '@material-ui/core/Fab';
+import ReactRough, { Circle, Line } from 'react-rough';
 import useDimensions from 'react-use-dimensions';
 
 const types = {
