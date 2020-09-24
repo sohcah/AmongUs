@@ -253,7 +253,7 @@ const colors = [
   "limegreen",
   "aqua",
   "blue",
-  "purple",
+  "hotpink",
   "white",
 ]
 
@@ -347,12 +347,9 @@ function App() {
                 <path onClick={() => setList([...list,"Balcony"])} d=" M 263.923 194.151 L 263.908 215.298 L 279.64 215.298 L 279.873 207.859 L 341.146 207.068 L 341.146 194.507 L 263.923 194.151 Z " fillRule="evenodd" fill="transparent" stroke="rgb(36,60,202)" />
               </g>
             </svg>)}
-            {mapTypes.map(i => <FAB className={i.id} onClick={() => setList([...list, i.id])} size="medium" style={{ opacity: 0, backgroundColor: ["#ffffff", "#aaffff", "#77ffff", "#33ccff", "#0099ff"][list.filter(x => x === i.id).length], color: "black", fontSize: 9, position: "absolute", marginTop: -24, marginLeft: -24, top: i.position[1], left: i.position[0] }}>
-              {i.short || i.id}
-            </FAB>)}
           <FAB onClick={() => { setList([]); setRng(Math.floor(Math.random() * 1000)) }} size="medium" style={{ backgroundColor: "red", color: "white", fontSize: 12, position: "absolute", marginTop: -24, marginLeft: -24, bottom: 24, right: 24 }}>
             Reset
-            </FAB>
+          </FAB>
           <div className="line" style={{ position: "absolute", left: 0, top: 0, bottom: 0, right: 0 }}>
             <ReactRough config={{ options: { roughness: 3, seed: rng } }} width={width || 10} height={height || 10}>
               {list.length === 0 && <Circle
