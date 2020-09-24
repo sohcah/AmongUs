@@ -263,7 +263,6 @@ function App() {
   const [ref, x] = useDimensions();
   const [rng, setRng] = React.useState(Math.floor(Math.random() * 1000))
   const { width, height } = x;
-  console.log(x);
   var mapTypes = types[map];
   return (
     <div className="App">
@@ -384,7 +383,7 @@ function App() {
         </ListItem>)}
       </List>
       </main>
-    </div >
+    </div>
   );
 }
 
