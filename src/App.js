@@ -257,6 +257,13 @@ const colors = [
   "white",
 ]
 
+const randomMessages = [
+  "I saw yellow jump in a vent",
+  "Blue is very susp",
+  "VOTE RED OUT",
+  "IT WASN'T ME!"
+]
+
 function App() {
   var [map, setMap] = React.useState("mira");
   var [list, setList] = React.useState([]);
@@ -383,6 +390,9 @@ function App() {
         </ListItem>)}
       </List>
       </main>
+      <footer style={{padding:8}}>
+        <div style={{color:"white"}}>Site created by <a href="https://sohcah.dev/" style={{color:"lightblue"}}>Sam Hindess</a> - {randomMessages[rng%randomMessages.length]}</div>
+      </footer>
     </div>
   );
 }
